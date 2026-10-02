@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RK Poultry Farm</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS will be added later -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+<header class="header">
+
+    <div class="nav">
+
+        <!-- LOGO -->
+        <a href="./index.html" class="logo">
+            <img src="./imges/logo.png" alt="RK Poultry Farm & Egg Production">
+        </a>
+
+
+        <!-- NAVIGATION -->
+        <nav class="nav-links">
+
+            <a href="./index.html" class="active">Home</a>
+
+            <a href="./about.html">About Us</a>
+
+            <a href="./product.html">Products</a>
+
+            <a href="./egg-production.html">Egg Production</a>
+
+            <a href="./gallery.html">Gallery</a>
+
+            <a href="./contact.html">Contact</a>
+
+        </nav>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="header-right">
+
+            <!-- SEARCH -->
+         <div class="search-box">
+
+    <span class="search-icon">
+        <svg viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="6"></circle>
+            <line x1="15.5" y1="15.5" x2="20" y2="20"></line>
+        </svg>
+    </span>
+
+    <input type="text" placeholder="Search products...">
+
+</div>
+
+
+            <!-- CART -->
+            <a href="cart.html" class="cart">
+
+    🛒
+
+    <span>0</span>
+
+</a>
+
+
+            <!-- ORDER NOW -->
+            <a href="#" class="order-btn">
+                Order Now
+            </a>
+
+        </div>
+
+
+        <!-- MOBILE MENU -->
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </div>
+
+
+    <!-- MOBILE NAVIGATION -->
+    <div class="mobile-menu" id="mobileMenu">
+
+       <a href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./product.html">Products</a>
+        <a href="#">Egg Production</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+
+    </div>
+
+</header>
+    <!-- ================= MAIN ================= -->
+
+<main>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <h1>
+                    Fresh Eggs
+                    <br>
+                    for a Healthier
+                    <br>
+                    Tomorrow
+                </h1>
+
+                <p>
+                    Farm fresh eggs, supplied to homes,
+                    <br>
+                    shops, hotels and restaurants.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#" class="hero-btn shop-btn">
+                        Shop Now
+                    </a>
+
+                    <a href="#" class="hero-btn learn-btn">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+
+
+    <!-- ================= FEATURES ================= -->
+<section class="features">
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            🌿
+        </div>
+
+        <div>
+            <h3>Fresh</h3>
+            <p>Egg Supply</p>
+        </div>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            🛡️
+        </div>
+
+        <div>
+            <h3>Quality</h3>
+            <p>Focused</p>
+        </div>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            🌱
+        </div>
+
+        <div>
+            <h3>Hygienic</h3>
+            <p>Handling</p>
+        </div>
+
+    </div>
+
+
+    <div class="feature">
+
+        <div class="feature-icon">
+            🚚
+        </div>
+
+        <div>
+            <h3>Bulk</h3>
+            <p>Orders</p>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- ================================
+     OUR PRODUCTS
+================================ -->
+
+<section class="products-section" id="products">
+
+    <div class="products-container">
+
+
+        <!-- SECTION HEADING -->
+
+        <div class="products-heading">
+
+            <h2>Our Products</h2>
+
+            <p>
+                Fresh and quality eggs for every requirement
+            </p>
+
+        </div>
+
+
+        <!-- ============================
+             PRODUCT CARDS
+        ============================ -->
+
+        <div class="product-grid">
+
+
+            <!-- PRODUCT 1 -->
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img
+                        src="imges/individual_eggs.png"
+                        alt="Farm Fresh Eggs"
+                    >
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Farm Fresh Eggs
+                    </h3>
+                    <p class="product-pack">
+                            (12 eggs)
+                    </p>
+
+
+                    <p class="product-description">
+                        Fresh eggs for everyday use.
+                    </p>
+
+
+                    <!-- DYNAMIC PRICE -->
+
+                    <div class="product-price">
+
+                        <span
+                            class="price"
+                            id="price-eggs"
+                        >
+                            Loading...
+                        </span>
+
+                    </div>
+
+
+<a href="product-detail.html?id=1"class="view-product-btn">
+    View Products
+</a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="./imges/single_tray.png"
+                        alt="Egg Tray"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Egg Trays
+                    </h3>
+                    <p class="product-pack">
+                         1 tray (30 eggs)
+                    </p>
+
+
+                    <p class="product-description">
+                        Empty trays for safe egg transport.
+                    </p>
+
+
+                    <!-- DYNAMIC PRICE -->
+
+                    <div class="product-price">
+
+                        <span
+                            class="price"
+                            id="price-tray"
+                        >
+                            Loading...
+                        </span>
+
+                    </div>
+
+
+ <a href="product-detail.html?id=2" class="view-product-btn">
+    View Details
+</a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img
+                        src="./imges/bulk_egg.png"
+                        alt="Bulk Egg Supply"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Bulk Supply
+                    </h3>
+                    <p class="product-pack">
+                        10 trays (300 eggs)
+                    </p>    
+
+
+                    <p class="product-description">
+                        Bulk supply for shops, hotels and restaurants.
+                    </p>
+
+
+                    <!-- DYNAMIC PRICE -->
+
+                    <div class="product-price">
+
+                        <span
+                            class="price"
+                            id="price-bulk"
+                        >
+                            Loading...
+                        </span>
+
+                    </div>
+
+
+  <a href="product-detail.html?id=3" class="view-product-btn">
+    View Products
+</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================================
+     ABOUT US
+================================ -->
+
+<section class="home-about-section">
+    <div class="home-about-heading">
+
+    <h2>
+        About Us
+    </h2>
+
+    <p>
+        Freshness, quality and care from our farm to you
+    </p>
+
+</div>
+
+    <div class="home-about-container">
+
+        <div class="home-about-image">
+
+            <img
+                src="./imges/about_us.png"
+                alt="RK Poultry Farm"
+            >
+
+        </div>
+
+
+        <div class="home-about-info">
+
+            <p class="home-about-label">
+                ABOUT RK POULTRY FARM
+            </p>
+
+            <h2>
+                Fresh Eggs. Quality You Can Trust.
+            </h2>
+
+            <p>
+                RK Poultry Farm is focused on supplying
+                fresh and quality eggs for homes, shops,
+                hotels, restaurants and other requirements.
+            </p>
+
+            <p>
+                We focus on careful handling, hygiene and
+                reliable supply to ensure that our customers
+                receive good-quality products.
+            </p>
+
+
+            <div class="home-about-values">
+
+                <div class="home-about-value">
+
+                    <h3>
+                        Freshness
+                    </h3>
+
+                    <p>
+                        Fresh eggs supplied with care.
+                    </p>
+
+                </div>
+
+
+                <div class="home-about-value">
+
+                    <h3>
+                        Quality
+                    </h3>
+
+                    <p>
+                        Focus on quality at every stage.
+                    </p>
+
+                </div>
+
+
+                <div class="home-about-value">
+
+                    <h3>
+                        Reliability
+                    </h3>
+
+                    <p>
+                        Dependable supply for every requirement.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================================
+     CONTACT
+================================ -->
+
+<section class="home-contact-section">
+
+    <div class="home-contact-heading">
+
+        <h2>
+            Contact Us
+        </h2>
+
+        <p>
+            We would love to hear from you
+        </p>
+
+    </div>
+
+
+    <div class="home-contact-container">
+
+
+        <!-- CONTACT INFORMATION -->
+
+        <div class="home-contact-info">
+
+            <p class="home-contact-label">
+                GET IN TOUCH
+            </p>
+
+            <h3>
+                Let's Connect
+            </h3>
+
+            <p>
+                Have a question about our products,
+                bulk supply or orders? Contact us and
+                our team will be happy to help.
+            </p>
+
+
+            <div class="home-contact-item">
+
+                <strong>
+                    Address
+                </strong>
+
+                <span>
+                    RK Poultry Farm
+                </span>
+
+            </div>
+
+
+            <div class="home-contact-item">
+
+                <strong>
+                    Phone
+                </strong>
+
+                <span>
+                    +91 XXXXX XXXXX
+                </span>
+
+            </div>
+
+
+            <div class="home-contact-item">
+
+                <strong>
+                    Email
+                </strong>
+
+                <span>
+                    example@rkpoltryfarm.com
+                </span>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CONTACT FORM -->
+
+        <div class="home-contact-form">
+
+            <form id="homeContactForm">
+
+                <div class="form-group">
+
+                    <label for="homeContactName">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="homeContactName"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="homeContactEmail">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="homeContactEmail"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="homeContactMessage">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="homeContactMessage"
+                        rows="5"
+                        placeholder="Enter your message"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="home-send-message-btn"
+                >
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+ 
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <!-- JS will be added later -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

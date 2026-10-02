@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - RK Poultry Farm</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav">
+
+            <!-- LOGO -->
+
+            <a href="./index.html" class="logo">
+
+                <img
+                    src="imges/logo.png"
+                    alt="RK Poultry Farm & Egg Production"
+                >
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav-links">
+
+                <a href="./index.html">
+                    Home
+                </a>
+
+                <a href="./about.html">
+                    About Us
+                </a>
+
+                <a href="./product.html">
+                    Products
+                </a>
+
+                <a href="./egg-production.html">
+                    Egg Production
+                </a>
+
+                <a href="./gallery.html">
+                    Gallery
+                </a>
+
+                <a href="./contact.html" class="active">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="header-right">
+
+                <!-- SEARCH -->
+
+                <div class="search-box">
+
+                    <span class="search-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <circle
+                                cx="11"
+                                cy="11"
+                                r="6"
+                            ></circle>
+
+                            <line
+                                x1="15.5"
+                                y1="15.5"
+                                x2="20"
+                                y2="20"
+                            ></line>
+
+                        </svg>
+
+                    </span>
+
+                    <input
+                        type="text"
+                        placeholder="Search products..."
+                    >
+
+                </div>
+
+
+                <!-- CART -->
+
+                <a href="cart.html" class="cart">
+
+                    🛒
+
+                    <span>0</span>
+
+                </a>
+
+
+                <!-- ORDER NOW -->
+
+                <a href="#" class="order-btn">
+                    Order Now
+                </a>
+
+            </div>
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE NAVIGATION -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <a href="./index.html">
+                Home
+            </a>
+
+            <a href="./about.html">
+                About Us
+            </a>
+
+            <a href="./product.html">
+                Products
+            </a>
+
+            <a href="./egg-production.html">
+                Egg Production
+            </a>
+
+            <a href="./gallery.html">
+                Gallery
+            </a>
+
+            <a href="./contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= CONTACT PAGE ================= -->
+
+    <main class="contact-page">
+
+
+        <!-- PAGE HEADING -->
+
+        <section class="contact-header">
+
+            <h1>
+                Contact Us
+            </h1>
+
+            <p>
+                We would love to hear from you
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= CONTACT CONTENT ================= -->
+
+        <section class="contact-content">
+
+            <div class="contact-container">
+
+
+                <!-- ================= CONTACT INFORMATION ================= -->
+
+                <div class="contact-info">
+
+                    <p class="contact-label">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2>
+                        Let's Connect
+                    </h2>
+
+                    <p class="contact-description">
+                        Have a question about our products,
+                        bulk supply or orders? Contact us and
+                        our team will be happy to help.
+                    </p>
+
+
+                    <!-- ADDRESS -->
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            📍
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Address
+                            </h3>
+
+                            <p>
+                                RK Poultry Farm
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ☎
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Phone
+                            </h3>
+
+                            <p>
+                                +91 XXXXX XXXXX
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            ✉
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Email
+                            </h3>
+
+                            <p>
+                                example@rkpoltryfarm.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ================= CONTACT FORM ================= -->
+
+                <div class="contact-form-box">
+
+                    <h2>
+                        Send Us a Message
+                    </h2>
+
+
+                    <form id="contactForm">
+
+
+                        <!-- NAME -->
+
+                        <div class="form-group">
+
+                            <label for="contactName">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="contactName"
+                                placeholder="Enter your full name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- PHONE -->
+
+                        <div class="form-group">
+
+                            <label for="contactPhone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="contactPhone"
+                                placeholder="Enter your phone number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+
+                        <div class="form-group">
+
+                            <label for="contactEmail">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="contactEmail"
+                                placeholder="Enter your email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- MESSAGE -->
+
+                        <div class="form-group">
+
+                            <label for="contactMessage">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="contactMessage"
+                                rows="5"
+                                placeholder="Enter your message"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- SEND -->
+
+                        <button
+                            type="submit"
+                            class="send-message-btn"
+                        >
+                            Send Message
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

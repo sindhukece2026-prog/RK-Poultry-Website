@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Cart - RK Poultry Farm</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <img
+                    src="imges/logo.png"
+                    alt="RK Poultry Farm & Egg Production"
+                >
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="./about.html">
+                    About Us
+                </a>
+
+                <a href="./product.html">
+                    Products
+                </a>
+
+                <a href="./egg-production.html">
+                    Egg Production
+                </a>
+
+                <a href="./gallery.html">
+                    Gallery
+                </a>
+
+                <a href="./contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="header-right">
+
+                <!-- SEARCH -->
+
+                <div class="search-box">
+
+                    <span class="search-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <circle
+                                cx="11"
+                                cy="11"
+                                r="6"
+                            ></circle>
+
+                            <line
+                                x1="15.5"
+                                y1="15.5"
+                                x2="20"
+                                y2="20"
+                            ></line>
+
+                        </svg>
+
+                    </span>
+
+                    <input
+                        type="text"
+                        placeholder="Search products..."
+                    >
+
+                </div>
+
+
+                <!-- CART -->
+
+                <a href="cart.html" class="cart">
+
+                    🛒
+
+                    <span>0</span>
+
+                </a>
+
+
+                <!-- ORDER NOW -->
+
+                <a
+                    href="#"
+                    class="order-btn"
+                >
+                    Order Now
+                </a>
+
+            </div>
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE NAVIGATION -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="#">
+                About Us
+            </a>
+
+            <a href="product.html">
+                Products
+            </a>
+
+            <a href="#">
+                Egg Production
+            </a>
+
+            <a href="#">
+                Gallery
+            </a>
+
+            <a href="#">
+                Contact
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= CART PAGE ================= -->
+
+    <main class="cart-page">
+
+
+        <!-- PAGE TITLE -->
+
+        <section class="cart-header">
+
+            <h1>
+                Your Cart
+            </h1>
+
+          <a href="#" id="clearCartBtn">
+    Clear Cart
+</a>
+
+        </section>
+
+
+
+        <!-- ================= CART CONTENT ================= -->
+
+        <section class="cart-content">
+
+            <div class="cart-container">
+
+
+    <!-- ================= CART ITEMS ================= -->
+
+<div class="cart-items" id="cartItems">
+    <!-- Cart items will be added here by JavaScript -->
+</div>
+               
+                <!-- ================= ORDER SUMMARY ================= -->
+
+                <div class="order-summary">
+
+                    <h2>
+                        Order Summary
+                    </h2>
+
+
+         <div class="summary-row">
+
+    <span>
+        Total Items
+    </span>
+
+    <strong id="cartTotalItems">
+        0
+    </strong>
+
+</div>
+
+
+                    <div class="summary-row">
+
+                        <span>
+                            Total Amount
+                        </span>
+
+                        <strong id="cartTotal">
+                            Price
+                        </strong>
+
+                    </div>
+
+
+                    <a
+    href="checkout.html"
+    class="checkout-btn"
+>
+    Proceed to Checkout
+</a>
+
+
+                    <a
+                        href="product.html"
+                        class="continue-shopping"
+                    >
+                        ← Continue Shopping
+                    </a>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details - RK Poultry Farm</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <img
+                    src="./imges/logo.png"
+                    alt="RK Poultry Farm & Egg Production"
+                >
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="#">
+                    About Us
+                </a>
+
+                <a href="product.html" class="active">
+                    Products
+                </a>
+
+                <a href="#">
+                    Egg Production
+                </a>
+
+                <a href="#">
+                    Gallery
+                </a>
+
+                <a href="#">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="header-right">
+
+                <!-- SEARCH -->
+
+                <div class="search-box">
+
+                    <span class="search-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <circle
+                                cx="11"
+                                cy="11"
+                                r="6"
+                            ></circle>
+
+                            <line
+                                x1="15.5"
+                                y1="15.5"
+                                x2="20"
+                                y2="20"
+                            ></line>
+
+                        </svg>
+
+                    </span>
+
+                    <input
+                        type="text"
+                        placeholder="Search products..."
+                    >
+
+                </div>
+
+
+                <!-- CART -->
+
+              <a
+    href="cart.html"
+    class="cart"
+>
+
+    🛒
+
+    <span>0</span>
+
+</a>
+
+
+                <!-- ORDER NOW -->
+
+                <a
+                    href="#"
+                    class="order-btn"
+                >
+                    Order Now
+                </a>
+
+            </div>
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE NAVIGATION -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="#">
+                About Us
+            </a>
+
+            <a href="product.html">
+                Products
+            </a>
+
+            <a href="#">
+                Egg Production
+            </a>
+
+            <a href="#">
+                Gallery
+            </a>
+
+            <a href="#">
+                Contact
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= PRODUCT DETAIL ================= -->
+
+    <main class="product-detail-page">
+
+
+        <!-- PRODUCT DETAIL SECTION -->
+
+        <section class="product-detail">
+
+            <div class="product-detail-container">
+
+
+                <!-- ================= PRODUCT IMAGE ================= -->
+
+                <div class="product-detail-image">
+
+                    <img
+    src="imges/individual_eggs.png"
+    alt="Farm Fresh Eggs"
+>
+
+                </div>
+
+
+
+                <!-- ================= PRODUCT INFORMATION ================= -->
+
+                <div class="product-detail-info">
+
+                    <p class="product-category">
+                        FRESH EGGS
+                    </p>
+
+
+                    <h1>
+                        Farm Fresh Eggs
+                    </h1>
+
+
+                    <h2>
+                        (30 Eggs)
+                    </h2>
+
+
+                    <!-- PRICE -->
+
+                    <div class="detail-price">
+
+                        <span id="productPrice">
+                            Price
+                        </span>
+
+                    </div>
+
+
+                    <!-- DESCRIPTION -->
+
+                    <p class="detail-description">
+
+                        Nutritious, high-quality eggs from
+                        healthy and well-cared poultry.
+
+                    </p>
+
+
+                    <!-- ================= FEATURES ================= -->
+
+                    <div class="detail-features">
+
+                        <div class="detail-feature">
+
+                            <span class="check">
+                                ✓
+                            </span>
+
+                            <span>
+                                Farm fresh
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail-feature">
+
+                            <span class="check">
+                                ✓
+                            </span>
+
+                            <span>
+                                High quality
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail-feature">
+
+                            <span class="check">
+                                ✓
+                            </span>
+
+                            <span>
+                                Hygienically handled
+                            </span>
+
+                        </div>
+
+
+                        <div class="detail-feature">
+
+                            <span class="check">
+                                ✓
+                            </span>
+
+                            <span>
+                                Suitable for home and commercial use
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ================= QUANTITY ================= -->
+
+                    <div class="quantity-section">
+
+                        <label>
+                            Quantity
+                        </label>
+
+
+                        <div class="quantity-control">
+
+                            <button
+                                type="button"
+                                class="quantity-btn"
+                                id="decreaseBtn"
+                            >
+                                −
+                            </button>
+
+
+                            <span id="quantity">
+                                1
+                            </span>
+
+
+                            <button
+                                type="button"
+                                class="quantity-btn"
+                                id="increaseBtn"
+                            >
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ADD TO CART -->
+
+                    <button
+                        type="button"
+                        class="detail-add-cart"
+                        id="addToCartBtn"
+                    >
+                        Add to Cart
+                    </button>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

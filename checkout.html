@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout - RK Poultry Farm</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <img
+                    src="imges/logo.png"
+                    alt="RK Poultry Farm & Egg Production"
+                >
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="./about.html">
+                    About Us
+                </a>
+
+                <a href="product.html">
+                    Products
+                </a>
+
+                <a href="./egg-production.html">
+                    Egg Production
+                </a>
+
+                <a href="./gallery.html">
+                    Gallery
+                </a>
+
+                <a href="./contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="header-right">
+
+                <!-- SEARCH -->
+
+                <div class="search-box">
+
+                    <span class="search-icon">
+
+                        <svg viewBox="0 0 24 24">
+
+                            <circle
+                                cx="11"
+                                cy="11"
+                                r="6"
+                            ></circle>
+
+                            <line
+                                x1="15.5"
+                                y1="15.5"
+                                x2="20"
+                                y2="20"
+                            ></line>
+
+                        </svg>
+
+                    </span>
+
+                    <input
+                        type="text"
+                        placeholder="Search products..."
+                    >
+
+                </div>
+
+
+                <!-- CART -->
+
+                <a href="cart.html" class="cart">
+
+                    🛒
+
+                    <span>0</span>
+
+                </a>
+
+
+                <!-- ORDER NOW -->
+
+                <a href="#" class="order-btn">
+                    Order Now
+                </a>
+
+            </div>
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="menu-btn"
+                id="menuBtn"
+            >
+                ☰
+            </button>
+
+        </div>
+
+
+        <!-- MOBILE NAVIGATION -->
+
+        <div
+            class="mobile-menu"
+            id="mobileMenu"
+        >
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="#">
+                About Us
+            </a>
+
+            <a href="product.html">
+                Products
+            </a>
+
+            <a href="#">
+                Egg Production
+            </a>
+
+            <a href="#">
+                Gallery
+            </a>
+
+            <a href="#">
+                Contact
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= CHECKOUT PAGE ================= -->
+
+    <main class="checkout-page">
+
+
+        <!-- PAGE TITLE -->
+
+        <section class="checkout-header">
+
+            <h1>
+                Checkout
+            </h1>
+
+            <p>
+                Complete your details to place your order
+            </p>
+
+        </section>
+
+
+
+        <!-- ================= CHECKOUT CONTENT ================= -->
+
+        <section class="checkout-content">
+
+            <div class="checkout-container">
+
+
+                <!-- ================= CUSTOMER DETAILS ================= -->
+
+                <div class="customer-details">
+
+                    <h2>
+                        Customer Details
+                    </h2>
+
+
+                    <form id="checkoutForm">
+
+
+                        <!-- NAME -->
+
+                        <div class="form-group">
+
+                            <label for="customerName">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerName"
+                                placeholder="Enter your full name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- PHONE -->
+
+                        <div class="form-group">
+
+                            <label for="customerPhone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="customerPhone"
+                                placeholder="Enter your phone number"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+
+                        <div class="form-group">
+
+                            <label for="customerEmail">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                placeholder="Enter your email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- ADDRESS -->
+
+                        <div class="form-group">
+
+                            <label for="customerAddress">
+                                Delivery Address
+                            </label>
+
+                            <textarea
+                                id="customerAddress"
+                                placeholder="Enter your delivery address"
+                                rows="4"
+                                required
+                            ></textarea>
+
+                        </div>
+                        <!-- PAYMENT METHOD -->
+
+<div class="payment-method">
+
+    <label>
+        Payment Method
+    </label>
+
+    <div class="payment-options">
+
+        <label class="payment-option">
+
+            <input
+                type="radio"
+                name="paymentMethod"
+                value="cod"
+            >
+
+            <span>
+                Cash on Delivery
+            </span>
+
+        </label>
+
+
+        <label class="payment-option">
+
+            <input
+                type="radio"
+                name="paymentMethod"
+                value="online"
+            >
+
+            <span>
+                Pay Online
+            </span>
+
+        </label>
+
+    </div>
+    <div class="online-payment-box" id="onlinePaymentBox">
+
+    <h3>
+        Scan & Pay
+    </h3>
+
+    <p>
+        Scan the QR code using your UPI app to complete the payment.
+    </p>
+
+    <div class="qr-placeholder">
+        QR Code
+    </div>
+
+</div>
+
+</div>
+
+
+                        <!-- PLACE ORDER -->
+
+                        <button
+                            type="submit"
+                            class="place-order-btn"
+                        >
+                            Place Order
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- ================= ORDER SUMMARY ================= -->
+
+                <div class="checkout-summary">
+
+                    <h2>
+                        Your Order
+                    </h2>
+
+
+                    <!-- JS WILL ADD ITEMS HERE -->
+
+                    <div
+                        class="checkout-items"
+                        id="checkoutItems"
+                    >
+                    </div>
+
+
+                    <!-- TOTAL -->
+
+                    <div class="checkout-total">
+
+                        <span>
+                            Total Amount
+                        </span>
+
+                        <strong id="checkoutTotal">
+                            ₹0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
